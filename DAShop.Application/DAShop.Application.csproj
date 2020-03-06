@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="Impletemention\" />
+    <Folder Include="ViewModel\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAShop.Data.EF\DAShop.Data.EF.csproj" />
+    <ProjectReference Include="..\DAShop.Data\DAShop.Data.csproj" />
+    <ProjectReference Include="..\DAShop.Utilities\DAShop.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -10,4 +10,12 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DAShop.Application\DAShop.Application.csproj" />
+    <ProjectReference Include="..\DAShop.Data.EF\DAShop.Data.EF.csproj" />
+    <ProjectReference Include="..\DAShop.Data\DAShop.Data.csproj" />
+    <ProjectReference Include="..\DAShop.Infracstucture\DAShop.Infracstucture.csproj" />
+    <ProjectReference Include="..\DAShop.Utilities\DAShop.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
